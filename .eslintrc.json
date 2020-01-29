@@ -23,6 +23,7 @@
     "import"
   ],
   "rules": {
+    "semi": "error",
     "quotes": ["error", "single"],
     "jsx-quotes": ["error", "prefer-single"],
     "max-len": [
@@ -38,7 +39,8 @@
     "object-curly-spacing": ["error", "always"],
     "sort-imports": ["error", { "ignoreDeclarationSort": true }], // declaration sort handled by "import/order" rule
     "import/order": "error",
-    "react/jsx-curly-spacing": ["error", {"when": "always", "children": true}]
+    "react/jsx-curly-spacing": ["error", {"when": "always", "children": true}],
+    "@typescript-eslint/explicit-function-return-type": "error"
   },
   "globals": {
     "setInterval": true,
